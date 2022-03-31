@@ -1,0 +1,259 @@
+*{
+    margin: 0px;
+    left: 0px;
+}
+#master {
+    margin: 0;
+    left: 0;
+    box-shadow: 1px 1px 0px 0px transparent;
+
+}
+#master::after{
+    position: absolute;
+    left: 600px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    content: "";
+    background-image: url(../../../image/background.png);
+    background-position: right bottom;
+    background-repeat: repeat-x;
+    background-size: cover;
+}
+
+#page{
+    position: relative;
+    min-width: 100%;
+}
+#auth{
+    width: 600px;
+    position: absolute;
+    box-sizing: border-box;
+    background-color: #fff;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+}
+#auth .box-wrap{
+    max-width: 550px;
+    margin: auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+#auth .box-wrap .auth-logo{
+    text-align: center;
+    padding-bottom: 0px;
+    padding-top: 10px;
+}
+a{
+    text-decoration: node;
+    color: #267cde;
+    font-weight: bold;
+    cursor: pointer;
+}
+img{
+    border: node;
+    overflow: hidden;
+    font-size: 10px;
+    color: transparent;
+    vertical-align: middle;
+}
+
+#auth .box-wrap h1{
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+    padding: 35px 0px 8px 0px;
+}
+#auth .box-wrap .title{
+    color:  #888;
+    font-size: 14px;
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #eee;
+}
+
+#auth .box .form{
+    padding: 30px 0;
+}
+
+#auth .box .form .row{
+    padding-bottom: 20px;
+}
+
+#auth .box .form .row .label{
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+#auth .box .form .row .input{
+    background-color:  #fff;
+    border-radius: 3px;
+    padding: 0;
+}
+
+.form .input{
+    position: relative;
+}
+
+
+#auth .box .form .row .input input{
+    padding: 10px;
+
+}
+
+#auth .box .form .row .input input{
+    font-size: 16px;
+}
+
+.form .input input{
+    display: block;
+    border-top: 1px solid #d3d3d3;
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #d3d3d3;
+    border-bottom: 1px solid #ccc;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+
+.url{
+    cursor: pointer;
+}
+.a{
+    text-decoration: none;
+    color: #267cde;
+}
+.normal{
+    font-weight:normal;
+}
+.right{
+    float: right;
+}
+
+span{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+.xo{
+    overflow: hidden;
+}
+
+.relative{
+    position: relative;
+}
+
+#auth .box .form .row .checkbox{
+    position: absolute;
+    font-size: 13px;
+    color: #888;
+    left: 0;
+    top:0;
+}
+#auth .box .form .row .checkbox input{
+    vertical-align: -2px;
+
+}
+#auth .box .form .row .submit {
+    margin-top: 40px;
+}
+
+#auth .box .form .row .submit input{
+    width: 100%;
+    background-color:  #2bd14e;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 11px 25px;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight:  bold;
+}
+#auth .box .form .row .submit input:hover{
+    background-color:#00FF99;
+}
+#auth .box .form .row .oauth{
+    overflow: hidden;
+    padding-top: 35px;
+}
+
+#auth .box .form .row .oauth .label::before{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top:40%;
+    height: 1px;
+    background-color: #eee;
+    content: "";
+}
+#auth .box .form .row .oauth .label{
+    text-align: center;
+    position: relative;
+   
+}
+
+
+#auth .box .form .row .label{
+
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-size: 13px;
+}
+#auth .box .form .row .oauth .label span{
+    position: relative;
+    font-weight: normal;
+    color: #aaa;
+    background-color: #fff;
+    padding: 2px 10px;
+}
+
+#auth .box .form .row .aa .a-left{
+    /* position: ; */
+    margin-right: 10%;
+}
+
+
+#auth .box .form .row .aa{
+    background-color: #f3f3f3;
+    border: 1px solid rgb(224, 215, 215);
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    text-align: center;
+    display: block;
+    box-sizing: border-box;
+    color: #267cde;
+    padding: 10px 10px;
+    border-radius: 3px;
+    margin-top: 20px;
+    width: 33%;
+}
+
+#auth .box .form .row .aa:hover{
+    background-color: #267cde;
+    color: #fff;
+}
+.a-left{
+    right: 10px;;
+    float:left;
+}
+a{
+    text-decoration: none;
+}
+
+#auth .box .extra{
+    border-top: 1px solid #eee;
+    padding-top: 25px;
+}
+
+#auth .box .extra .simple{
+    text-align: center;
+    font-size: 15px;
+    color: #888;
+}
